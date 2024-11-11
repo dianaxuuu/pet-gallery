@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
     
     body {
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: Georgia, sans-serif;
         background-color: #f9f9f9;
     }
 `;

@@ -22,7 +22,7 @@ const NavContainer = styled.nav`
     align-items: center;
     justify-content: space-between;
     padding: 16px 32px;
-    background-color: #333;
+    background-color: #023047;
     color: #fff;
     position: sticky;
     top: 0;
@@ -54,10 +54,10 @@ const StyledNavLink = styled(NavLink)`
     transition: background-color 0.3s ease;
 
     &.active {
-        background-color: #444; /* Deep background color for the active tab */
+        background-color: #034C70;
     }
 
     &:hover {
-        background-color: #555; /* Lighter color for hover effect */
+        background-color: #02405F;
     }
 `;
