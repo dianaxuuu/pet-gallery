@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Eulerity Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tasks
 
-## Available Scripts
+The task is to build out a front-end accomplishing the following using React and Typescript
 
-In the project directory, you can run:
+<ul>
 
-### `npm start`
+<li>Display a list of images. Make a GET request to /pets to retrieve a JSON array of JSON objects that represent pet objects. These JSON objects will include properties like an image URL, title, description, entity creation date. You need to present these images and associated data in a compelling and interactive way. Use fetch for fetching data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<li>Allow the user to select several images and download them.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<li>Ability to: Select All, Clear Selection
 
-### `npm test`
+<li>Ability to: Sort by Name A-Z, Sort by Name Z-A
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<li>Searchbar to filter displayed images by title or description
 
-### `npm run build`
+<li>Use of styled-components for the UI
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<li>Use of react-router-dom - add additional About Me page or any other page you think would be relevant
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<li>Create a Custom Hook for Loading and Managing Data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<li>Manage Global and Local State Effectively (can use context, redux, hooks, etc)
 
-### `npm run eject`
+<li>Document code where necessary
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+</ul>
