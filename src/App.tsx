@@ -4,20 +4,24 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Pets from './pages/Pets';
-import Contact from './pages/Contact';
+import Favorites from './pages/Favorites';
+import { PetProvider } from './context/PetContext';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/pets" element={<Pets />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
-    </Router>
+    <PetProvider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pets" element={<Pets />} />
+          <Route path="/favorites" element={<Favorites />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </PetProvider>
   );
 }
 
 export default App;
+

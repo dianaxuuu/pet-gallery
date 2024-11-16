@@ -7,9 +7,11 @@ const Navbar: React.FC = () => {
         <NavContainer>
             <Brand to="/">Pet Foster</Brand>
             <NavLinks>
-                <StyledNavLink to="/">Home</StyledNavLink>
+                <StyledNavLink to="/">
+                    Home
+                </StyledNavLink>
                 <StyledNavLink to="/pets">Pets</StyledNavLink>
-                <StyledNavLink to="/contact">Contact Us</StyledNavLink>
+                <StyledNavLink to="/favorites">Favorites</StyledNavLink>
             </NavLinks>
         </NavContainer>
     );
